@@ -13,12 +13,12 @@ If you don't want to use Redis change the following line from
 
 ```js
 apicache.options({
-    redisClient: redis.createClient()
+  redisClient: redis.createClient()
 }, {
-    statusCodes: {
-        exclude: [404, 429, 500],
-        include: [200, 304]
-    }
+  statusCodes: {
+    exclude: [404, 429, 500],
+    include: [200, 304]
+  }
 }).middleware;
 ```
 
@@ -26,11 +26,11 @@ to
 
 ```js
 apicache.options({
-    statusCodes: {
-        exclude: [404, 429, 500],
-        include: [200, 304]
-    }
-    });
+  statusCodes: {
+    exclude: [404, 429, 500],
+    include: [200, 304]
+  }
+});
 ```
 
 ## Getting started

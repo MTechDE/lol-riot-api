@@ -107,12 +107,12 @@
 
       // Set Cache Options
       apicache.options({
-          redisClient: redis.createClient()
+        redisClient: redis.createClient()
       }, {
-          statusCodes: {
-              exclude: [404, 429, 500],
-              include: [200, 304]
-          }
+        statusCodes: {
+          exclude: [404, 429, 500],
+          include: [200, 304]
+        }
       }).middleware;
 
       api = new API({
@@ -123,7 +123,7 @@
       app.port = process.env.PORT || 3001;
 
       // Default route
-      app.get('/', cache('1 day'), function (req, res) {
+      app.get('/', cache('1 day'), function(req, res) {
         res.status(200).json({
           name: 'League of Legends API',
           version: "2.0.0",
