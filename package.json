@@ -31,7 +31,7 @@
     "fs-extra": "4.0.1",
     "helmet": "3.8.1",
     "inquirer": "3.2.1",
-    "lol-riot-api-module": "3.0.3",
+    "lol-riot-api-module": "git+https://git@github.com/danielsogl/lol-riot-api-module.git",
     "redis": "2.8.0"
   },
   "keywords": [
