@@ -3,6 +3,10 @@
   "license": "MIT",
   "description": "A configurable League of Legends API",
   "version": "3.0.2",
+  "engines": {
+    "node": "8.3.0",
+    "npm": "5.3.0"
+  },
   "homepage": "https://github.com/Pupix/lol-riot-api",
   "author": "Robert Manolea <manolea.robert@gmail.com>",
   "contributors": [
