@@ -28,10 +28,12 @@
   },
   "dependencies": {
     "apicache": "0.8.7",
+    "connect-redis": "^3.3.0",
     "cors": "2.8.4",
     "expandjs": "1.1.1",
     "express": "4.15.4",
     "express-rate-limit": "2.9.0",
+    "express-session": "^1.15.5",
     "fs-extra": "4.0.1",
     "helmet": "3.8.1",
     "inquirer": "3.2.1",
