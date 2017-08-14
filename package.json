@@ -37,6 +37,7 @@
     "helmet": "3.8.1",
     "inquirer": "3.2.1",
     "lol-riot-api-module": "git+https://git@github.com/danielsogl/lol-riot-api-module.git",
+    "passport": "^0.4.0",
     "redis": "2.8.0"
   },
   "keywords": [
